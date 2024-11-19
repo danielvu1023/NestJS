@@ -11,9 +11,9 @@ export class CatsService {
     private readonly httpService: HttpService,
     private configService: ConfigService,
   ) {}
-  private readonly cats: any[] = [];
-  findAll(): any[] {
-    return this.cats;
+  private readonly cats: string[] = [];
+  findAll(): string[] {
+    return ['testing'];
   }
   // getWeather(): Observable<AxiosResponse<any>> {
   //   return this.httpService.get(
