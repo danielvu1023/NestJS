@@ -30,6 +30,7 @@
     "@prisma/client": "^5.22.0",
     "axios": "^1.7.7",
     "cache-manager": "^5.7.6",
+    "dotenv": "^16.4.5",
     "reflect-metadata": "^0.2.0",
     "rxjs": "^7.8.1"
   },
@@ -63,8 +64,8 @@
       "json",
       "ts"
     ],
-    "rootDir": "src",
-    "testRegex": ".*\\.spec\\.ts$",
+    "rootDir": ".",
+    "testRegex": ".*\\.(spec|e2e-spec)\\.ts$",
     "transform": {
       "^.+\\.(t|j)s$": "ts-jest"
     },

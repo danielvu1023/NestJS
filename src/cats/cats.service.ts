@@ -67,6 +67,3 @@ export class CatsService {
     return { id: data.id, status: data.status_id };
   }
 }
-
-// class
-// construcotr will accept these parameters when created
